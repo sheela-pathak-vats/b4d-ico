@@ -8,8 +8,7 @@ Implement all three contracts and test them in order to demonstrate your underst
 **All work should be done in _contracts/Crowdsale.sol_, _contracts/Queue.sol_ and _contracts/Token.sol_. Do not make changes to any other files. The exception to this is for testing: add as many test files as you need, of course**
 
 ## Rules
-You will be building an ERC20-compliant token platform with a few caveats. Firstly, the token sale will be capped, so there can only be a limited number of tokens in circulation. Tokens can be minted and destroyed (burned), as well as refunded. The crux of the project is to set up a crowdsale where buyers must enter a **Queue**, waiting in line to place their order for tokens. Buyers waiting in line must make sure they are not the last person in line: you must have someone behind you to place a token order!
-
+You will be building an ERC20-compliant token platform with a few caveats. Firstly, the token sale will be capped, so there can only be a limited number of tokens in circulation. Tokens can be minted and destroyed (burned), as well as refunded. The crux of the project is to set up a crowdsale where buyers must enter a **Queue**, waiting in line to place their order for tokens. Buyers waiting in line must make sure they are not the last person in line: you must have someone behind you to place a token order.
 Details follow:
 * `Crowdsale.sol` contract specifications:
 	* Must deploy `Token.sol`
